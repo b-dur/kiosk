@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import video from './fount.mp4';
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
         muted
         autoPlay="true"
         loop="true"
-        src={`${process.env.PUBLIC_URL}/fount.mp4`}
+        src={video}
       />
     );
   }
